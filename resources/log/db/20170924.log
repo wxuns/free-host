@@ -1,0 +1,107 @@
+error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+2017-09-24 11:27:44error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+2017-09-24 11:27:45error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 11:28:20]error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+[2017-09-24 11:28:20]error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 11:28:52] error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+[2017-09-24 11:28:52] error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 11:29:47] error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 12:50:17] error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 12:50:20] error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+[2017-09-24 12:50:21] error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 12:50:51] error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+[2017-09-24 12:50:51] error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
+[2017-09-24 12:51:53] error1:  Uncaught Error: Call to undefined method app\controller\IndexController::index{id}() in D:\item\frame\core\wxuns.php:20
+Stack trace:
+#0 D:\item\frame\index.php(22): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:20
+[2017-09-24 12:51:53] error1:  Uncaught ErrorException: 页面不存在 in D:\item\frame\core\lib\route.php:52
+Stack trace:
+#0 D:\item\frame\core\lib\route.php(27): core\lib\Route->con('favicon.ico', Array)
+#1 D:\item\frame\core\lib\route.php(14): core\lib\Route->router()
+#2 D:\item\frame\core\wxuns.php(15): core\lib\Route->__construct()
+#3 D:\item\frame\index.php(22): core\wxuns::run()
+#4 {main}
+  thrown => D:\item\frame\core\lib\route.php line:52
