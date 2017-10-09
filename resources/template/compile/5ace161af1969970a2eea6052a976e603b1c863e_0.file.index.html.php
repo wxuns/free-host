@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.31, created on 2017-10-09 22:39:28
+  from "D:\item\frame\public\index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.31',
+  'unifunc' => 'content_59db8a208a1212_05973846',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5ace161af1969970a2eea6052a976e603b1c863e' => 
+    array (
+      0 => 'D:\\item\\frame\\public\\index.html',
+      1 => 1507559967,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59db8a208a1212_05973846 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -74,7 +98,8 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    {{$name}}
+                    <?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+
                 </div>
                 <div class="links">
                     <a href="http://wxuns.cn/docs">Documentation</a>
@@ -86,3 +111,5 @@
         </div>
     </body>
 </html>
+<?php }
+}

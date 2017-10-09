@@ -1,12 +1,15 @@
 {
-    "name": "wxuns/wxuns",
-    "description": "The Wxuns Framework.",
-    "keywords": ["framework", "wxuns"],
-    "license": "MIT",
-    "type": "project",
-    "require": {
-        "php": ">=7.0.0",
-        "filp/whoops": "*",
-        "twig/twig": "^2.4"
-    }
+	"name" : "wxuns/wxuns",
+	"description" : "The Wxuns Framework.",
+	"keywords" : [
+		"framework",
+		"wxuns"
+	],
+	"license" : "MIT",
+	"type" : "project",
+	"require" : {
+		"php" : ">=7.0.0",
+		"filp/whoops" : "*",
+		"smarty/smarty": "^3.1"
+	}
 }

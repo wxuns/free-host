@@ -15,7 +15,6 @@ require CORE . '/wxuns.php';//核心文件入口
 $whoops = new \Whoops\Run;
 $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
 $whoops->register();
-
 //2.自动加载函数库
 spl_autoload_register('\core\wxuns::load');//自动加载
 //3.启动框架

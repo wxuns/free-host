@@ -10,9 +10,7 @@ class wxuns{
 	static public $classmap = array();
 	
 	static public function run(){
-		new \core\lib\Log('work');
-		//model类
-		new \core\lib\model();
+		new \core\lib\log('work');
 		new \core\lib\config();
 		//路由类
 		$route = new \core\lib\route();

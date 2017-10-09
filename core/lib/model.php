@@ -1,6 +1,7 @@
 <?php
 namespace core\lib;
-use \core\lib\Config;
+use \core\lib\config;
+use \core\lib\medoo;
 /**
  * 数据库子类
  * @author wxuns

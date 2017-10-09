@@ -31,18 +31,3 @@ function dump($var, $echo=true, $label=null, $strict=true) {
     }else
         return $output;
 }
-/**
- * 视图类
- * @param string $tpl
- * @param array $vel
- */
-function view($tpl,$vel = []) {
-	$file = WXUNS . '/public';
-	$tpl = $tpl . '.html';
-	$loader = new \Twig_Loader_Filesystem($file);
-	$twig = new \Twig_Environment($loader, array(
-// 		'cache' => WXUNS . '/resources/log/compilation_cache',
-	));
-	
-	echo $twig->render($tpl,['name'=>'qwe']);
-}

@@ -1,0 +1,17 @@
+[2017-10-02 20:49:22] error1:  Uncaught Twig_Error_Loader: Unable to find template "inde.html" (looked into: D:\item\frame/public). in D:\item\frame\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:226
+Stack trace:
+#0 D:\item\frame\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('inde.html')
+#1 D:\item\frame\vendor\twig\twig\lib\Twig\Environment.php(269): Twig_Loader_Filesystem->getCacheKey('inde.html')
+#2 D:\item\frame\vendor\twig\twig\lib\Twig\Environment.php(345): Twig_Environment->getTemplateClass('inde.html')
+#3 D:\item\frame\vendor\twig\twig\lib\Twig\Environment.php(288): Twig_Environment->loadTemplate('inde.html')
+#4 D:\item\frame\core\common\function.php(47): Twig_Environment->render('inde.html', Array)
+#5 D:\item\frame\app\controller\IndexController.php(5): view('inde.html')
+#6 D:\item\frame\core\wxuns.php(23): app\controller\IndexController->index()
+#7 D:\item\frame\index.php(18): core\wxuns::run()
+#8 {main}
+  thrown => D:\item\frame\vendor\twig\twig\lib\Twig\Loader\Filesystem.php line:226
+[2017-10-02 20:49:22] error1:  Uncaught Error: Class '\app\controller\Controller' not found in D:\item\frame\core\wxuns.php:22
+Stack trace:
+#0 D:\item\frame\index.php(18): core\wxuns::run()
+#1 {main}
+  thrown => D:\item\frame\core\wxuns.php line:22

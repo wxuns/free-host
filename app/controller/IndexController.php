@@ -1,7 +1,10 @@
 <?php
 namespace app\controller;
-class IndexController{
+use core\Controller;
+
+class IndexController extends Controller{
 	public function index(){
-		return view('index');
+		$this->assign('name','wxuns');
+		$this->display('index.html');
 	}
 }

@@ -51,5 +51,4 @@ class Log {
 			}
 		},E_ALL ^ E_NOTICE);
 	}
-	public function __destruct(){}
 }
