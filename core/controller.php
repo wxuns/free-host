@@ -24,6 +24,10 @@ class Controller extends Smarty{
 		$this->left_delimiter = $this->left_limiter;
 		$this->right_delimiter = $this->right_limiter;
 		$_smarty->caching=TRUE;
+		
+		$path = res . '/path';        //设置session存储的路径
+		session_save_path($path);
+		session_start();
 	}
 	/**
 	 * 跳转url
