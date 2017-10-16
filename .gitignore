@@ -4,5 +4,6 @@ composer.lock
 .project
 .settings/
 .buildpath
-/log/
-
+/resources/log/
+/resources/path/
+/resources/template/

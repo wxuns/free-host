@@ -6,7 +6,7 @@
 define('WXUNS', realpath('./'));//入口文件
 define('CORE',WXUNS . '/core');//核心文件
 define('APP', WXUNS . '/app');//mvc
-define('html', WXUNS . '/public');
+define('html', WXUNS . '/resources/view');
 define('res', WXUNS . '/resources');
 
 require WXUNS . '/vendor/autoload.php';//加载composer
