@@ -1,4 +1,5 @@
 <?php
+namespace core\lib;
 /**
  * Cookie
  * @author wxuns

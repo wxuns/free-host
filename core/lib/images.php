@@ -1,5 +1,11 @@
 <?php
 namespace core\lib;
+/**
+ * 图片处理类
+ * @author wxuns
+ * @link http://www.wxuns.cn
+ * @since 2017年10月22日
+ */
 class Images{
 	/**
 	 * 创建缩略图

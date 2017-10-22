@@ -35,5 +35,6 @@ class Controller extends Smarty{
 	 */
 	public function redirect($url){
 		header('Location: ' . $url);
+		exit;
 	}
 }
