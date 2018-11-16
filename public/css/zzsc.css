@@ -1,8 +1,8 @@
 body{background-color: #F1F1F1;color: #333}
 .dn{display: none;}
 
-/* ·µ»Ø¶¥²¿ */
-.go-top{position: fixed;bottom: 40px;right: 20px;width: 46px;z-index: 999;}
+/* è¿”å›žé¡¶éƒ¨ */
+.go-top{position: fixed;bottom: 40px;right:0px;width: 46px;z-index: 999;}
 .go-top a{display: block;width: 46px;height: 46px;margin-bottom: 10px;background-image: url(../images/go-top.png?);}
 .go-top a:last-child{margin-bottom: 0;}
 .go-top .go{background-position: 0 -150px;}
